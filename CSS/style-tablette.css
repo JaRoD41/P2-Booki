@@ -45,8 +45,6 @@
 	.box-filtre {
 		justify-content: center;
 		flex-wrap: wrap;
-		column-gap: 25px;
-		row-gap: 25px;
 	}
 	.infos-txt {
 		font-size: 18px;

@@ -6,31 +6,30 @@
 
 body {
 	max-width: 1440px;
-	border: 2px double green;
 	font-family: "Raleway", "sans-serif";
 	font-size: 18px;
+}
+main {
+	margin: 0 50px;
 }
 /* Mise en page de l'entête */
 nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 15px;
 }
 .logo_booki {
 	display: block;
+	margin-left: 20px;
 }
 .logo_booki img {
 	width: 90px;
-	margin: 25px 0px 25px 10px;
-	padding-top: 25px;
 }
 nav .liens_header {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	width: 300px;
-	padding-top: 15px;
 }
 .liens_header a {
 	color: black;
@@ -60,8 +59,6 @@ h1 {
 }
 #search-bar {
 	display: flex;
-	border-radius: 15px;
-	width: auto;
 	margin-bottom: 20px;
 }
 .fa-map-marker-alt {
@@ -69,16 +66,13 @@ h1 {
 }
 #search-bar .geoloc {
 	display: flex;
-	padding: 25px;
-	height: 0px;
-	width: 10px;
+	width: 50px;
 	margin: -1px;
 	font-size: 25px;
 	background-color: #f2f2f2;
 	border-radius: 15px 0 0 15px;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
 }
 form {
 	display: flex;
@@ -105,6 +99,9 @@ input {
 	color: black;
 	width: 214px;
 }
+::placeholder {
+	color: black;
+}
 
 #search-bar .loupe {
 	display: none;
@@ -117,21 +114,22 @@ input {
 	font-weight: bold;
 }
 .box-filtre {
-	font-family: "fontawesome";
 	width: auto;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	padding: 8px;
+	padding: 8px 0 18px 0;
+	gap: 25px 25px;
 }
 .button-icon {
+	display: flex;
 	background-color: #deebff;
 	color: #0065fc;
-	width: 40px;
-	height: 40px;
-	padding: 11px 11px;
+	width: 50px;
+	height: 50px;
 	border-radius: 40px;
-	margin-right: 12px;
+	align-items: center;
+	justify-content: center;
 }
 .button-global {
 	display: flex;
@@ -141,10 +139,9 @@ input {
 	border-left: none;
 	background-color: white;
 	color: black;
-	height: 39px;
+	height: 50px;
 	font-size: 16px;
 	font-weight: bold;
-	/*margin: 25px;*/
 	padding: 1px;
 	border-radius: 45px;
 	cursor: pointer;
@@ -171,7 +168,7 @@ input {
 .infos-logements {
 	font-size: 13px;
 	display: flex;
-	align-items: center;
+	align-items: baseline;
 }
 .infos-icon {
 	color: #0065fc;
@@ -186,7 +183,7 @@ input {
 	padding: 4px 0 0 9px;
 }
 .infos-txt {
-	padding-top: 10px;
+	padding-left: 10px;
 }
 
 /*Hebergements à Marseille*/
