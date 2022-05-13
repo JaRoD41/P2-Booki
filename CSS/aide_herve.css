@@ -1,0 +1,49 @@
+*         title + search-box        *
+************************************/
+
+h1 {
+    margin-bottom: 0px
+}
+
+.subtitle {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: inline-block;
+    border: 1px solid var(--grey);
+    border-radius: 15px;
+    width: auto;
+}
+
+.search-box .fa-map-marker-alt {
+    display: inline-block;
+    padding: 14px;
+    height: 28px;
+    font-size: 25px;
+    background-color: var(--grey);
+    border-radius: 15px 0px 0px 15px;
+}
+
+.search-box input {
+    outline: none;
+    height: 52px;
+    margin-left: -5px;
+    border: none;
+    padding: 10px;
+}
+
+.search-box button {
+    background-color: var(--blue);
+    color: white;
+    height: 52px;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.search-box button .fa-search {
+    display: none;
+}

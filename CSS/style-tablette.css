@@ -1,0 +1,55 @@
+/*Feuille de Style pour version Tablette*/
+
+@media screen and (max-width: 992px) {
+	body {
+		max-width: 992px;
+	}
+	nav {
+		flex-direction: column;
+		border-bottom: 2px solid #f2f2f2;
+	}
+	.logo_booki {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px 0px 10px 40px;
+	}
+	.logo_booki img {
+		margin: -10px 0 -10px 0;
+		width: 135px;
+	}
+	.liens_header {
+		width: 50%;
+	}
+	.liens_header a {
+		border-bottom: 3px solid transparent;
+	}
+	.liens_header a:hover {
+		border-top: 3px solid transparent;
+		border-bottom: 3px solid #0065fc;
+	}
+	/* Zone de recherche */
+
+	.search_zone h1 {
+		width: auto;
+		padding-top: 20px;
+	}
+	.subtitle {
+		padding: 10px;
+	}
+	#search-bar {
+		justify-content: center;
+		margin: auto;
+	}
+	form {
+		justify-content: center;
+	}
+	/* Filtres */
+
+	.box-filtre {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	/*Hebergements à Marseille*/
+}

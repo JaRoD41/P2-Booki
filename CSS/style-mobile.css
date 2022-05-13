@@ -1,0 +1,108 @@
+/*Feuille de Style pour version Mobile*/
+
+@media screen and (max-width: 768px) {
+	body {
+		max-width: 768px;
+		width: auto;
+		padding: 0px 20px;
+	}
+	header {
+		display: flex;
+	}
+	nav {
+		/*display: flex;
+		justify-content: space-between;*/
+
+		padding-top: 0px;
+		width: 100%;
+	}
+
+	.logo_booki a {
+		width: 135px;
+	}
+	.liens_header {
+		width: 75%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.liens_header a {
+		padding: 20px 80px;
+	}
+
+	/* Zone de recherche */
+
+	.search_zone {
+		display: inline-block;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.search_zone h1 {
+		margin-bottom: 20px;
+		padding: 20px 10px 0 10px;
+		font-size: 23px;
+		margin: auto;
+	}
+	.subtitle {
+		margin-bottom: 35px;
+		font-size: 18px;
+	}
+
+	#zone_texte {
+		background-color: #fff;
+		border-radius: 0px;
+		color: black;
+		width: 340px;
+	}
+	#search-bar {
+		width: auto;
+	}
+	#search-bar .search-desktop {
+		display: none;
+	}
+	#search-bar .loupe {
+		display: block;
+		color: white;
+		background-color: #0065fc;
+		border: none;
+		border-radius: 15px;
+		width: 50px;
+		position: relative;
+		right: 10px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	.loupe {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#search-bar .fa-search {
+		margin-left: 16px;
+		margin-top: 16px;
+	}
+	/* Filtres */
+
+	.filter_title {
+		margin-right: auto;
+	}
+
+	.button-icon {
+		width: 50px;
+		height: 50px;
+		padding: 16px 11px;
+
+		margin-right: 0px;
+	}
+	.button-global {
+		height: 50px;
+
+		margin-right: auto;
+	}
+
+	.infos-txt {
+		font-size: 18px;
+	}
+
+	/*Hebergements à Marseille*/
+}

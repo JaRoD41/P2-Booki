@@ -1,0 +1,193 @@
+/*Feuille de Style pour version Desktop*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1440px;
+	border: 2px double green;
+	font-family: "Raleway", "sans-serif";
+	padding: 0px 50px;
+	font-size: 18px;
+}
+/* Mise en page de l'entête */
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 15px;
+}
+.logo_booki {
+	display: block;
+}
+.logo_booki img {
+	width: 90px;
+	margin: 25px 0px 25px 10px;
+	padding-top: 25px;
+}
+nav .liens_header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 300px;
+	padding-top: 15px;
+}
+.liens_header a {
+	color: black;
+	text-decoration: none;
+	padding: 45px 35px;
+	border-top: 3px solid transparent;
+}
+
+/* Intégration de la bordure au passage souris desktop*/
+.liens_header a:hover {
+	color: #0065fc;
+	border-top: 3px solid #0065fc;
+	align-items: center;
+}
+
+/* Zone de recherche */
+
+h1 {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.subtitle {
+	display: block;
+	margin-bottom: 20px;
+	font-size: 13px;
+	color: black;
+}
+#search-bar {
+	display: flex;
+	border: 1px solid #f2f2f2;
+	border-radius: 15px;
+	width: 250px;
+}
+.fa-map-marker-alt {
+	font-size: 19px;
+}
+#search-bar .geoloc {
+	display: flex;
+	padding: 25px;
+	height: 0px;
+	width: 10px;
+	margin: -1px;
+	font-size: 25px;
+	background-color: #f2f2f2;
+	border-radius: 15px 0 0 15px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+form {
+	display: flex;
+	margin: -1px 0px;
+	height: 50px;
+	justify-content: flex-start;
+}
+input {
+	color: white;
+	background-color: #0065fc;
+	border: none;
+	border-radius: 0 15px 15px 0;
+	padding: 0 15px;
+	width: 141px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+#zone_texte {
+	background-color: #fff;
+	border-radius: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border: 1px solid #f2f2f2;
+	color: black;
+	width: 214px;
+}
+
+#search-bar .loupe {
+	display: none;
+}
+
+/* Filtres */
+
+.filter_title {
+	font-size: 16px;
+	font-weight: bold;
+}
+.box-filtre {
+	font-family: "fontawesome";
+	width: auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 8px;
+}
+.button-icon {
+	background-color: #deebff;
+	color: #0065fc;
+	width: 40px;
+	height: 40px;
+	padding: 11px 11px;
+	border-radius: 40px;
+	margin-right: 12px;
+}
+.button-global {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #f2f2f2;
+	border-left: none;
+	background-color: white;
+	color: black;
+	height: 39px;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 25px;
+	padding: 1px;
+	border-radius: 45px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.button-text {
+	text-align: center;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*changement de couleur des filtres au survol*/
+
+.button-global:hover {
+	color: #0065fc;
+	background-color: #deebff;
+}
+.button-text:hover {
+	color: #0065fc;
+}
+
+/*Zone infos nombre de logements*/
+
+.infos-logements {
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+}
+.infos-icon {
+	color: #0065fc;
+}
+.infos-icon i {
+	height: 25px;
+	width: 25px;
+	border-radius: 25px;
+	border: 1px solid #f2f2f2;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 0 0 9px;
+}
+.infos-txt {
+	padding-left: 10px;
+}
+
+/*Hebergements à Marseille*/

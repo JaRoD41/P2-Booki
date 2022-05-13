@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/e466229621.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="CSS/normalize.css" />
+		<link rel="stylesheet" href="CSS/style-desktop.css" />
+		<link rel="stylesheet" href="CSS/style-tablette.css" />
+		<link rel="stylesheet" href="CSS/style-mobile.css" />
+
+		<title>Booki</title>
+	</head>
+	<body>
+		<!--En tête Booki avec les 2 liens-->
+		<header>
+			<nav>
+				<div class="logo_booki">
+					<a href="#">
+						<img src="images/logo/Booki.png" alt="logo_booki" />
+					</a>
+				</div>
+				<div class="liens_header">
+					<a href="#hebergements">Hébergements</a>
+					<a href="#activites">Activités</a>
+				</div>
+			</nav>
+		</header>
+
+		<!--Zone de recherche-->
+
+		<main>
+			<section class="search_zone">
+				<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+				<span class="subtitle">En plein centre ville ou en pleine nature</span>
+				<div id="search-bar">
+					<div class="geoloc">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<form action="" method="get">
+						<input
+							id="zone_texte"
+							type="text"
+							name="search"
+							placeholder="Marseille, France"
+						/>
+						<input class="search-desktop" type="submit" value="Rechercher" />
+						<div class="loupe">
+							<span><i id="icone-loupe" class="fas fa-search"></i></span>
+						</div>
+					</form>
+				</div>
+
+				<!--Filtres-->
+
+				<span class="box-filtre">
+					<div class="filter_title">Filtres</div>
+					<button class="button-global">
+						<span class="button-icon"
+							><i class="fas fa-money-bill-wave"></i
+						></span>
+						<div class="button-text">Économique</div>
+					</button>
+					<button class="button-global">
+						<span class="button-icon"><i class="fas fa-child"></i></span>
+						<div class="button-text">Familial</div>
+					</button>
+					<button class="button-global">
+						<span class="button-icon"><i class="fas fa-heart"></i></span>
+						<div class="button-text">Romantique</div>
+					</button>
+					<button class="button-global">
+						<span class="button-icon"><i class="fas fa-dog"></i></span>
+						<div class="button-text">Animaux autorisés</div>
+					</button>
+				</span>
+				<span class="infos-logements">
+					<div class="infos-icon"><i class="fas fa-info"></i></div>
+					<div class="infos-txt">
+						Plus de 500 logements sont disponibles dans cette ville
+					</div>
+				</span>
+			</section>
+
+			<!--Hebergements à Marseille-->
+		</main>
+	</body>
+</html>
