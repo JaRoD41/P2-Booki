@@ -86,7 +86,7 @@ input {
 	border: none;
 	border-radius: 0 15px 15px 0;
 	padding: 0 15px;
-	width: 100%; /*141px*/
+	width: 100%;
 	font-weight: bolder;
 	cursor: pointer;
 }
@@ -184,6 +184,7 @@ input {
 }
 .infos-txt {
 	padding-left: 10px;
+	padding-bottom: 35px;
 }
 
 /*Hebergements à Marseille*/
@@ -212,15 +213,18 @@ input {
 .titre_section {
 	display: flex;
 	width: 100%;
-	justify-content: baseline;
 	align-items: center;
-	height: auto;
+	height: 4%;
+	padding-left: 35px;
+	padding-top: 40px;
 }
 .hebergements_partie_1 {
 	display: flex;
+	height: 32%;
 }
 .hebergements_partie_2 {
 	display: flex;
+	height: 32%;
 }
 .card_hebergement {
 	width: 246px;
@@ -228,6 +232,7 @@ input {
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 0px 5px 20px #999;
+	transition: transform 1s;
 }
 .card_hebergement a {
 	color: #333;
@@ -235,8 +240,9 @@ input {
 }
 /*Effet sur les cards au :hover*/
 
-.card_hebergement:hover .photo_hebergements img {
-	width: 160%;
+.card_hebergement:hover {
+	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+	transform: scale(1.15, 1.15);
 }
 .photo_hebergements {
 	height: 120px;
@@ -246,6 +252,7 @@ input {
 .photo_hebergements img {
 	width: 100%;
 	height: 100%;
+	padding: 5px;
 	border-radius: 20px 20px 0 0;
 }
 .card_text {
@@ -268,10 +275,6 @@ input {
 }
 .note_card {
 	font-size: 13px;
-}
-.fond_hebergements .suite {
-	display: flex;
-	align-items: baseline;
 }
 .fond_hebergements .suite a {
 	font-size: 15px;
