@@ -200,15 +200,20 @@ input {
 	display: flex;
 	width: 880px;
 	height: 626px;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	background-color: #f2f2f2;
 	border-radius: 20px;
 }
 .fond_hebergements a {
 	text-decoration: none;
+	margin: 15px;
 }
 .titre_section {
+	display: flex;
 	width: 100%;
+	justify-content: baseline;
+	align-items: center;
 	height: auto;
 }
 .hebergements_partie_1 {
@@ -271,4 +276,5 @@ input {
 .fond_hebergements .suite a {
 	font-size: 15px;
 	font-weight: bold;
+	color: black;
 }
