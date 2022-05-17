@@ -206,7 +206,6 @@ input {
 	display: flex;
 	width: 65%;
 	height: 626px;
-	justify-content: space-around;
 	flex-wrap: wrap;
 	background-color: #f2f2f2;
 	border-radius: 20px;
@@ -214,6 +213,7 @@ input {
 .fond_hebergements a {
 	text-decoration: none;
 	margin: 15px;
+	height: fit-content;
 }
 .titre_hebergements {
 	display: flex;
@@ -226,10 +226,14 @@ input {
 .hebergements_partie_1 {
 	display: flex;
 	height: 32%;
+	width: 100%;
+	justify-content: center;
 }
 .hebergements_partie_2 {
 	display: flex;
 	height: 32%;
+	width: 100%;
+	justify-content: center;
 }
 .card_hebergement {
 	width: 246px;
@@ -273,6 +277,7 @@ input {
 .titre_card {
 	font-weight: bold;
 	font-size: 15px;
+	margin: 5px 0 0 0;
 }
 .tarif_card {
 	font-size: 13px;
@@ -284,6 +289,11 @@ input {
 	font-size: 15px;
 	font-weight: bold;
 	color: black;
+}
+.suite {
+	display: flex;
+	color: black;
+	font-weight: bold;
 }
 
 /*Les PLus Populaires*/
