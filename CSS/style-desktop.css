@@ -189,6 +189,11 @@ input {
 
 /*Hebergements à Marseille*/
 
+.zone_hebergements_et_populaires {
+	display: flex;
+	justify-content: space-between;
+}
+
 /*Couleurs des étoiles*/
 .etoile-bleue {
 	color: #0065fc;
@@ -199,7 +204,7 @@ input {
 /*Mise en place des cards*/
 .fond_hebergements {
 	display: flex;
-	width: 880px;
+	width: 65%;
 	height: 626px;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -210,7 +215,7 @@ input {
 	text-decoration: none;
 	margin: 15px;
 }
-.titre_section {
+.titre_hebergements {
 	display: flex;
 	width: 100%;
 	align-items: center;
@@ -263,7 +268,6 @@ input {
 }
 .titre_card,
 .tarif_card {
-	text-align: center;
 	color: black;
 }
 .titre_card {
@@ -280,4 +284,69 @@ input {
 	font-size: 15px;
 	font-weight: bold;
 	color: black;
+}
+
+/*Les PLus Populaires*/
+
+.etoile-populaires {
+	color: black;
+	margin-left: 19%;
+}
+.fond_populaires {
+	display: flex;
+	width: 32%;
+	height: 626px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+}
+.fond_populaires a {
+	text-decoration: none;
+	margin: 15px;
+}
+.titre_populaires {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	height: 4%;
+	padding-left: 35px;
+	padding-top: 40px;
+}
+.card_populaires {
+	display: flex;
+	width: 345px;
+	margin: 0px auto;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 0px 5px 20px #999;
+	transition: transform 1s;
+}
+.card_populaires a {
+	color: #333;
+	text-decoration: none;
+}
+/*Effet sur les cards au :hover*/
+
+.card_populaires:hover {
+	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+	transform: scale(1.15, 1.15);
+}
+.photo_populaires {
+	width: 130px;
+	object-fit: cover;
+	border-radius: 20px 0 0 20px;
+}
+.photo_populaires img {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	border-radius: 20px 0 0 20px;
+}
+.card_text_populaires {
+	display: flex;
+	width: 60%;
+	flex-direction: column;
+	align-items: baseline;
+	padding: 0 8% 2% 8%;
 }
