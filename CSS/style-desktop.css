@@ -251,12 +251,12 @@ input {
 }
 .photo_hebergements {
 	height: 120px;
-	object-fit: cover;
 	border-radius: 20px 20px 0 0;
 }
 .photo_hebergements img {
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 	padding: 5px;
 	border-radius: 20px 20px 0 0;
 }
@@ -294,12 +294,17 @@ input {
 }
 .fond_populaires {
 	display: flex;
+	flex-direction: column;
 	width: 32%;
 	height: 626px;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	background-color: #f2f2f2;
 	border-radius: 20px;
+}
+.populaires_flex {
+	display: flex;
+	flex-direction: column;
 }
 .fond_populaires a {
 	text-decoration: none;
@@ -309,13 +314,13 @@ input {
 	display: flex;
 	width: 100%;
 	align-items: center;
-	height: 4%;
+	height: 12%;
 	padding-left: 35px;
-	padding-top: 40px;
 }
 .card_populaires {
 	display: flex;
-	width: 345px;
+	height: 144px;
+	width: 343px;
 	margin: 0px auto;
 	border-radius: 20px;
 	background-color: white;
@@ -340,6 +345,7 @@ input {
 .photo_populaires img {
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 	padding: 5px;
 	border-radius: 20px 0 0 20px;
 }
