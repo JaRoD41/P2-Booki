@@ -369,65 +369,100 @@ input {
 }
 /*Activités à Marseille*/
 
+.activites {
+	padding-top: 50px;
+}
+
 .fond_activites {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.fond_activites img {
+	width: 100%;
+	border-radius: 20px 20px 0 0;
+	object-fit: cover;
+}
+.fond_activites h3 {
+	padding: 6%;
+	margin: 0%;
+	font-size: 15px;
 }
 .fond_activites a {
 	text-decoration: none;
-	margin: 15px;
-	height: fit-content;
+	color: black;
 }
-.titre_activites {
+.photo_activites_solo,
+.photo_activites_duo {
+	margin: 0;
+	padding: 0;
+}
+.activites_type_A {
 	display: flex;
-	width: 100%;
-	align-items: center;
-	height: 4%;
-	padding-top: 40px;
+	width: 23%;
+	background-color: #fff;
+	box-shadow: 0px 5px 20px #999;
+	border-radius: 20px;
 }
-.activites_partie_1 {
+.activites_type_B {
+	width: 23%;
 	display: flex;
-	background-color: aquamarine;
-	width: 50%;
-	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
 }
-.activites_partie_2 {
-	display: flex;
-	background-color: burlywood;
-	width: 50%;
-	flex-wrap: wrap;
+.activites_type_A img {
+	height: 380px;
 }
-.card_activites {
-	width: 302px;
-	margin: 0px auto;
+.card_activites_B1 img {
+	height: 180px;
+}
+.card_activites_B2 img {
+	height: 100px;
+}
+.card_activites_B3 img {
+	height: 130px;
+}
+.card_activites_B4 img {
+	height: 140px;
+}
+
+/*Mise en forme des 4 sous-types de cards*/
+
+.card_activites_A,
+.card_activites_B1,
+.card_activites_B2,
+.card_activites_B3,
+.card_activites_B4 {
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 0px 5px 20px #999;
 	transition: transform 1s;
 }
-.card_activites a {
-	color: #333;
-	text-decoration: none;
-}
+
 /*Effet sur les cards au :hover*/
 
-.card_activites:hover {
+.card_activites_A:hover {
 	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
 	transform: scale(1.15, 1.15);
 }
-.photo_activites {
-	height: 120px;
-	border-radius: 20px 20px 0 0;
+
+.card_activites_B1:hover {
+	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+	transform: scale(1.15, 1.15);
 }
-.photo_activites img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	padding: 5px;
-	border-radius: 20px 20px 0 0;
+
+.card_activites_B2:hover {
+	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+	transform: scale(1.15, 1.15);
 }
-.card_text {
-	display: flex;
-	flex-direction: column;
-	align-items: baseline;
-	padding: 0 8% 2% 8%;
+
+.card_activites_B3:hover {
+	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+	transform: scale(1.15, 1.15);
+}
+
+.card_activites_B4:hover {
+	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+	transform: scale(1.15, 1.15);
 }
