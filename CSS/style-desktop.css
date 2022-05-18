@@ -371,10 +371,6 @@ input {
 
 .fond_activites {
 	display: flex;
-	width: 65%;
-	height: 555px;
-	flex-wrap: wrap;
-	border-radius: 20px;
 }
 .fond_activites a {
 	text-decoration: none;
@@ -386,23 +382,22 @@ input {
 	width: 100%;
 	align-items: center;
 	height: 4%;
-	padding-left: 35px;
 	padding-top: 40px;
 }
 .activites_partie_1 {
 	display: flex;
-	/*height: 32%;
-	width: 100%;
-	justify-content: center;*/
+	background-color: aquamarine;
+	width: 50%;
+	flex-wrap: wrap;
 }
 .activites_partie_2 {
 	display: flex;
-	/*height: 32%;
-	width: 100%;
-	justify-content: center;*/
+	background-color: burlywood;
+	width: 50%;
+	flex-wrap: wrap;
 }
 .card_activites {
-	width: 246px;
+	width: 302px;
 	margin: 0px auto;
 	border-radius: 20px;
 	background-color: white;
