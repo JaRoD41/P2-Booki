@@ -95,4 +95,52 @@
 	}
 
 	/*Hebergements à Marseille*/
+
+	.fond_hebergements {
+		background-color: white;
+	}
+	.titre_hebergements {
+		width: auto;
+	}
+	.card_hebergement {
+		width: 335px;
+	}
+	.fond_populaires {
+		width: 100%;
+		border-radius: 0;
+	}
+	.titre_populaires {
+		justify-content: center;
+	}
+	.activites_type_A,
+	.activites_type_B {
+		width: 100%;
+	}
+	.fond_activites {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+	.activites_type_A img {
+		height: 150px;
+	}
+	.activites_type_B img {
+		height: 150px;
+	}
+	.card_activites_A,
+	.card_activites_B1,
+	.card_activites_B2,
+	.card_activites_B3,
+	.card_activites_B4 {
+		width: 100%;
+	}
+	.liens_footer {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		padding: 40px 20px;
+	}
+	footer h2 {
+		margin-bottom: 5px;
+	}
 }
