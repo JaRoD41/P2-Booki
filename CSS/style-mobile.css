@@ -15,10 +15,11 @@
 	.logo_booki a {
 		width: 135px;
 	}
-	.liens_header {
-		width: 75%;
+	nav .liens_header {
 		display: flex;
-		justify-content: center;
+		align-items: center;
+		justify-content: space-around;
+		width: 100%;
 	}
 	.liens_header a {
 		padding: 20px 0px;
@@ -27,7 +28,8 @@
 	/* Zone de recherche */
 
 	.search_zone {
-		display: inline-block;
+		display: flex;
+		flex-direction: column;
 		justify-content: space-between;
 		width: 100%;
 	}

@@ -39,6 +39,7 @@ nav .liens_header {
 }
 
 /* Intégration de la bordure au passage souris desktop*/
+
 .liens_header a:hover {
 	color: #0065fc;
 	border-top: 3px solid #0065fc;
@@ -109,17 +110,16 @@ input {
 
 /* Filtres */
 
-.filter_title {
+.box-filtre {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 30px 0;
+	gap: 25px;
+}
+.box-filtre h2 {
 	font-size: 16px;
 	font-weight: bold;
-}
-.box-filtre {
-	width: auto;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	padding: 8px 0 18px 0;
-	gap: 25px 25px;
 }
 .button-icon {
 	display: flex;
@@ -195,6 +195,7 @@ input {
 }
 
 /*Couleurs des étoiles*/
+
 .etoile-bleue {
 	color: #0065fc;
 }
@@ -202,10 +203,11 @@ input {
 	color: #f2f2f2;
 }
 /*Mise en place des cards*/
+
 .fond_hebergements {
 	display: flex;
 	width: 65%;
-	height: 626px;
+	justify-content: center;
 	flex-wrap: wrap;
 	background-color: #f2f2f2;
 	border-radius: 20px;
@@ -220,20 +222,8 @@ input {
 	width: 100%;
 	align-items: center;
 	height: 4%;
-	padding-left: 35px;
-	padding-top: 40px;
-}
-.hebergements_partie_1 {
-	display: flex;
-	height: 32%;
-	width: 100%;
-	justify-content: center;
-}
-.hebergements_partie_2 {
-	display: flex;
-	height: 32%;
-	width: 100%;
-	justify-content: center;
+	padding-left: 4%;
+	padding-top: 5%;
 }
 .card_hebergement {
 	width: 246px;
@@ -285,14 +275,12 @@ input {
 .note_card {
 	font-size: 13px;
 }
-.fond_hebergements .suite a {
+.lien_suite {
 	font-size: 15px;
-	font-weight: bold;
 	color: black;
-}
-.suite {
-	display: flex;
-	color: black;
+	width: 100%;
+	padding-left: 2%;
+	text-decoration: none;
 	font-weight: bold;
 	margin-left: 25px;
 }
@@ -306,12 +294,12 @@ input {
 .fond_populaires {
 	display: flex;
 	flex-direction: column;
-	width: 32%;
-	height: 626px;
 	justify-content: space-around;
+	height: 100%;
 	flex-wrap: wrap;
 	background-color: #f2f2f2;
 	border-radius: 20px;
+	margin-left: 2%;
 }
 .populaires_flex {
 	display: flex;
@@ -326,7 +314,7 @@ input {
 	width: 100%;
 	align-items: center;
 	height: 12%;
-	padding-left: 35px;
+	padding-left: 5%;
 }
 .card_populaires {
 	display: flex;
@@ -366,6 +354,9 @@ input {
 	flex-direction: column;
 	align-items: baseline;
 	padding: 0 8% 2% 8%;
+}
+.card_text_populaires .note_card {
+	padding-top: 35px;
 }
 /*Activités à Marseille*/
 
@@ -476,7 +467,7 @@ footer {
 .liens_footer {
 	display: flex;
 	margin: 0 50px;
-	height: 225px;
+	height: 100%;
 	align-items: baseline;
 }
 .liens_footer a {
