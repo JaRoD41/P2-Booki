@@ -39,10 +39,12 @@
 		padding: 20px 10px 0 10px;
 		font-size: 23px;
 		margin: auto;
+		text-align: left;
 	}
 	.subtitle {
 		margin-bottom: 35px;
 		font-size: 18px;
+		text-align: left;
 	}
 
 	#zone_texte {
@@ -55,8 +57,9 @@
 		width: 100%;
 	}
 	#search-bar {
-		width: auto;
+		width: 100%;
 		border: none;
+		margin-left: 7px;
 	}
 	#search-bar .search-desktop {
 		display: none;
@@ -100,26 +103,39 @@
 		background-color: white;
 	}
 	.titre_hebergements {
-		width: auto;
+		font-size: 16px;
 	}
 	.card_hebergement {
 		width: 335px;
 	}
+
+	/*Les plus populaires*/
+
 	.fond_populaires {
 		width: 100%;
 		border-radius: 0;
 	}
 	.titre_populaires {
-		justify-content: center;
+		justify-content: start;
+		font-size: 16px;
 	}
+	.etoile-populaires {
+		margin-left: 25%;
+	}
+
+	/*Activités à Marseille*/
+
 	.activites_type_A,
 	.activites_type_B {
-		width: 100%;
+		width: 95%;
+		display: flex;
+		margin: auto;
+		gap: 20px;
 	}
 	.fond_activites {
 		display: flex;
 		flex-direction: column;
-		gap: 30px;
+		gap: 20px;
 	}
 	.activites_type_A img {
 		height: 150px;
@@ -134,13 +150,25 @@
 	.card_activites_B4 {
 		width: 100%;
 	}
+	#activites h2 {
+		font-size: 24px;
+		margin-left: 4%;
+	}
+
+	/*Footer*/
+
 	.liens_footer {
 		display: flex;
 		flex-direction: column;
-		gap: 30px;
-		padding: 40px 20px;
+		align-items: baseline;
+		margin: 0 5%;
 	}
 	footer h2 {
 		margin-bottom: 5px;
+	}
+	.footer_about,
+	.footer_hebergements,
+	.footer_help {
+		width: auto;
 	}
 }
