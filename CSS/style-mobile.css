@@ -15,6 +15,9 @@
 	.logo_booki a {
 		width: 135px;
 	}
+	.logo_booki {
+		margin-left: 8%;
+	}
 	nav .liens_header {
 		display: flex;
 		align-items: center;
