@@ -26,6 +26,8 @@
 	}
 	.liens_header a {
 		padding: 20px 0px;
+		width: 50%;
+		text-align: center;
 	}
 
 	/* Zone de recherche */
