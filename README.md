@@ -1,5 +1,5 @@
 # P2-Booki
-Projet 2 OpenClassRooms</br>
+Projet n°2 OpenClassrooms</br>
 Formation Développeur Web / Mobile</br>
 Premier stage en tant que développeur web chez Booki, </br>
 une petite entreprise proposant un outil de planification de vacances ! </br>
