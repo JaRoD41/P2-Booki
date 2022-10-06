@@ -7,3 +7,5 @@ Son site permet aux usagers de trouver des hébergements et des activités dans 
 Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.</br>
 Aucun framework CSS (type BootStrap ou Tailwind CSS) ou
 préprocesseur CSS (type Sass ou Less) ne doit être utilisé.
+
+lien vers le site : https://jarod41.github.io/P2-Booki/
