@@ -1,4 +1,7 @@
 # P2-Booki
+https://user.oc-static.com/upload/2022/06/20/16557256333819_FR_1155_P3_Banner-Booki.png![image](https://user-images.githubusercontent.com/67756654/195329230-76c8e011-573d-4da3-aca1-f341bfc1545a.png)
+
+
 Projet n°2 OpenClassrooms</br>
 Formation Développeur Web / Mobile</br>
 Premier stage en tant que développeur web chez Booki, </br>
